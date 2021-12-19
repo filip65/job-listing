@@ -1,0 +1,31 @@
+@import "../styles/colors";
+
+.filterItem {
+  width: fit-content;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: $filterItems;
+  color: $primary;
+  font-weight: bold;
+  text-transform: capitalize;
+
+  p {
+    padding: 0.5rem;
+  }
+
+  .removeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+
+    &:hover {
+      background-color: $veryDarkGray;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "job-listing",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mongodb": "^4.2.2",
+    "next": "12.0.7",
+    "postcss": "^8.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.2",
+    "sass": "^1.44.0"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+@import "../styles/colors";
+
+.jobList {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 2.5rem;
+  padding-bottom: 4rem;
+
+  .addBtn {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    background-color: $primary;
+    color: $veryDarkGray;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      background-color: $veryDarkGray;
+      color: $background;
+    }
+  }
+
+  svg {
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 1024px) {
+    row-gap: 1.5rem;
+  }
+}

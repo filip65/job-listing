@@ -1,0 +1,14 @@
+@import "../styles/colors";
+
+.background {
+  width: 100vw;
+  height: 155px;
+  background-color: $primary;
+  background-image: url("/images/bg-header-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 992px) {
+    background-image: url("/images/bg-header-desktop.svg");
+  }
+}
